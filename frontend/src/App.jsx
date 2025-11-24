@@ -15,7 +15,7 @@ function App() {
           </Routes>
         </main>
         <footer className="footer">
-          <p>&copy; 2024 TinyLink. Built with React & Express.</p>
+          <p>&copy; 2025 TinyLink. Built with React & Express.</p>
         </footer>
       </div>
     </Router>
