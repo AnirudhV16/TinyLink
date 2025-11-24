@@ -13,6 +13,7 @@ A full-stack URL shortener built with React, Express, and PostgreSQL. Create sho
 - ⚡ **Fast & Reliable** - Built on modern tech stack with serverless deployment
 
 ## 🚀 Live Demo
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/c501a987-6224-429e-8f51-864bf9aa08c5" />
 
 - **Frontend**: [https://tiny-link-front.vercel.app](https://tiny-link-front.vercel.app)
 - **Backend API**: [https://tiny-link-back.vercel.app](https://tiny-link-back.vercel.app)
