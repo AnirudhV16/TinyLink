@@ -38,7 +38,7 @@ function StatsPage() {
   };
 
   const copyToClipboard = () => {
-    const url = `${BASE_URL}/${code}`;
+    const url = `${API_URL}/${code}`;
     navigator.clipboard.writeText(url).then(() => {
       alert('Copied to clipboard!');
     });
@@ -82,7 +82,7 @@ function StatsPage() {
             <div className="stat-item full-width">
               <label>Short URL</label>
               <div className="short-url-box">
-                <code>{BASE_URL}/{link.code}</code>
+                <code>{API_URL}/{link.code}</code>
                 <button 
                   className="btn btn-small"
                   onClick={copyToClipboard}
@@ -129,7 +129,7 @@ function StatsPage() {
 
           <div className="stats-footer">
             <a 
-              href={`${BASE_URL}/${link.code}`}
+              href={`${API_URL}/${link.code}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"

@@ -119,7 +119,7 @@ function Dashboard() {
   };
 
   const copyToClipboard = (code) => {
-    const url = `${BASE_URL}/${code}`;
+    const url = `${API_URL}/${code}`;
     navigator.clipboard.writeText(url).then(() => {
       alert('Copied to clipboard!');
     });
